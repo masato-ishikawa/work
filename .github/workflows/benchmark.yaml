@@ -1,0 +1,40 @@
+---
+name: benchmark
+
+on:
+  workflow_dispatch:
+
+jobs:
+  benchmark:
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+
+    steps:
+      - name: install pkg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sysbench
+
+      - name: setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: setup pip
+        run: |
+          pip3 install speedtest-cli
+
+      - name: cpu test
+        run: |
+          sysbench cpu --threads=4 run
+
+      - name: disk test
+        run: |
+          sysbench fileio --file-total-size=500M prepare
+          sysbench fileio --file-total-size=500M --file-test-mode=rndrw --time=30 --threads=4 run
+
+      - name: network test
+        run: |
+          speedtest-cli
