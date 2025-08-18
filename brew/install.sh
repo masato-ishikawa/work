@@ -17,7 +17,7 @@ packages=(
   firebase-cli
   font-hack-nerd-font
   multipass
-#   raycast
+  raycast
 )
 
 brew update
