@@ -11,9 +11,7 @@ gh
 ripgrep
 yq
 jq
-podman
-microk8s
-multipass
+wget
 k9s
 kubectx
 raycast
@@ -31,8 +29,12 @@ kubernetes-cli
 azure-cli
 awscli
 gcloud-cli
-firebase-cli
-mariadb-connector-c
+# # private
+# podman
+# microk8s
+# multipass
+# firebase-cli
+# mariadb-connector-c
 )
 
 brew update
