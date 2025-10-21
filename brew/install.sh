@@ -29,6 +29,7 @@ kubernetes-cli
 azure-cli
 awscli
 gcloud-cli
+eza
 # # private
 # podman
 # microk8s
