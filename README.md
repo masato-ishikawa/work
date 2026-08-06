@@ -4,9 +4,9 @@
 
 | ツール | 管理対象 |
 | --- | --- |
-| Homebrew / Brewfile | パッケージ管理 |
+| Brewfile | パッケージ管理 |
 | nix-darwin | macOSシステム設定 |
-| GNU Stow | dotfiles管理 |
+| Stow | dotfiles管理 |
 
 パッケージはNixでは管理せず、Homebrewへ集約する。
 
