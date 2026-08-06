@@ -4,7 +4,7 @@
 
 | ツール | 管理対象 |
 | --- | --- |
-| Brewfile | パッケージ管理 |
+| Homebrew / Brewfile | パッケージ管理 |
 | nix-darwin | macOSシステム設定 |
 | Stow | dotfiles管理 |
 
