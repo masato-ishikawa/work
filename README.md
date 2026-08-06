@@ -39,15 +39,6 @@ brew bundle install --file=brew/Brewfile
 brew bundle install --file=brew/Brewfile.home
 ```
 
-### 外部Tapの信頼
-
-Homebrewが外部Tapを信頼していない場合は、初回のみ明示的に許可する。
-
-```sh
-brew trust fluxcd/tap
-brew trust controlplaneio-fluxcd/tap
-```
-
 ## Stow
 
 各パッケージ内は、ホームディレクトリから見た配置と同じ構造にする。
