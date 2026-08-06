@@ -52,22 +52,20 @@ brew trust controlplaneio-fluxcd/tap
 
 各パッケージ内は、ホームディレクトリから見た配置と同じ構造にする。
 
-Ghosttyの設定の適用
+Ghostty設定の適用
 
 ```sh
 stow --dir=stow --target="$HOME" --restow ghostty
 ```
 
-Fishの設定の適用
+Fish設定の適用
 
 ```sh
 stow --dir=stow --target="$HOME" --restow fish
 fisher update
 ```
 
-### Ghostty、Zellij、Fish
-
-ターミナルは次の構成で起動する。
+### ターミナル構成
 
 ```text
 Ghostty
