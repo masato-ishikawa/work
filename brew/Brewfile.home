@@ -1,5 +1,5 @@
 # private tools
-brew "podman"
+cask "codex"
 brew "mariadb-connector-c"
 cask "multipass"
-cask "codex"
+brew "podman"
