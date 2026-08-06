@@ -30,12 +30,11 @@
 brew bundle install --file=brew/Brewfile
 ```
 
-### 自宅Mac
+### 追加パッケージ
 
-共通パッケージを適用した後、自宅Mac固有のパッケージをインストールする。
+共通パッケージを適用した後、追加パッケージをインストールする。
 
 ```sh
-brew bundle install --file=brew/Brewfile
 brew bundle install --file=brew/Brewfile.home
 ```
 
