@@ -1,5 +1,6 @@
 tap "controlplaneio-fluxcd/tap"
 tap "fluxcd/tap"
+tap "teamookla/speedtest"
 
 # Shell and command-line tools
 brew "fish"
@@ -10,12 +11,14 @@ brew "watch"
 brew "htop"
 brew "gh"
 brew "ripgrep"
+brew "teamookla/speedtest/speedtest"
 brew "yq"
 brew "jq"
 brew "wget"
 brew "eza"
 brew "stow"
 brew "zellij"
+brew "tree"
 
 # Kubernetes and infrastructure
 brew "k9s"
@@ -26,7 +29,8 @@ brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
 brew "kustomize"
 brew "kubernetes-cli"
 
-# # Languages and version managers
+# Languages and version managers
+brew "node"
 brew "uv"
 brew "direnv"
 brew "pyenv"
