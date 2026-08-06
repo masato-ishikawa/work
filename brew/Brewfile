@@ -41,7 +41,6 @@ brew "awscli"
 cask "gcloud-cli"
 
 # Desktop applications and fonts
-cask "codex"
 cask "ghostty"
 cask "rectangle"
 cask "font-hack-nerd-font"

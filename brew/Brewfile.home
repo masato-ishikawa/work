@@ -2,3 +2,4 @@
 brew "podman"
 brew "mariadb-connector-c"
 cask "multipass"
+cask "codex"
