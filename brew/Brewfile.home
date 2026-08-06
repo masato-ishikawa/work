@@ -1,0 +1,4 @@
+# private tools
+brew "podman"
+brew "mariadb-connector-c"
+cask "multipass"

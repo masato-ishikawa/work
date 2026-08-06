@@ -1,0 +1,46 @@
+tap "controlplaneio-fluxcd/tap"
+tap "fluxcd/tap"
+
+# Shell and command-line tools
+brew "fish"
+brew "ghq"
+brew "fzf"
+brew "watch"
+brew "htop"
+brew "gh"
+brew "ripgrep"
+brew "yq"
+brew "jq"
+brew "wget"
+brew "eza"
+brew "stow"
+brew "zellij"
+
+# Kubernetes and infrastructure
+brew "k9s"
+brew "kubectx"
+brew "helm"
+brew "fluxcd/tap/flux"
+brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
+brew "kustomize"
+brew "kubernetes-cli"
+
+# # Languages and version managers
+brew "uv"
+brew "direnv"
+brew "pyenv"
+brew "pipenv"
+brew "goenv"
+brew "tfenv"
+brew "tofuenv"
+
+# Cloud CLIs
+brew "azure-cli"
+brew "awscli"
+cask "gcloud-cli"
+
+# Desktop applications and fonts
+cask "codex"
+cask "ghostty"
+cask "rectangle"
+cask "font-hack-nerd-font"
