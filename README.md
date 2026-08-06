@@ -55,14 +55,12 @@ brew trust controlplaneio-fluxcd/tap
 Ghosttyの設定の適用
 
 ```sh
-stow --simulate --verbose --dir=stow --target="$HOME" ghostty
 stow --dir=stow --target="$HOME" --restow ghostty
 ```
 
 Fishの設定の適用
 
 ```sh
-stow --simulate --verbose --dir=stow --target="$HOME" fish
 stow --dir=stow --target="$HOME" --restow fish
 fisher update
 ```
