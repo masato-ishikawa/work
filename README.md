@@ -16,6 +16,7 @@
 .
 ├── brew/
 ├── stow/
+├── nix/ (予定)
 └── README.md
 ```
 
@@ -63,11 +64,6 @@ Fishの設定の適用
 ```sh
 stow --simulate --verbose --dir=stow --target="$HOME" fish
 stow --dir=stow --target="$HOME" --restow fish
-```
-
-Fisher本体はBrewfileで管理する。新しいMacではStowの適用後、`fish_plugins`に記載したTideを復元する。
-
-```sh
 fisher update
 ```
 
