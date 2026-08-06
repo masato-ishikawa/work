@@ -1,0 +1,5 @@
+# Terminal multiplexer
+command = /opt/homebrew/bin/zellij options --session-name main --attach-to-session true --default-shell /opt/homebrew/bin/fish
+
+# Font
+font-size = 16

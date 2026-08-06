@@ -3,6 +3,7 @@ tap "fluxcd/tap"
 
 # Shell and command-line tools
 brew "fish"
+brew "fisher"
 brew "ghq"
 brew "fzf"
 brew "watch"
