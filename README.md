@@ -35,7 +35,7 @@ brew bundle install --file=brew/Brewfile
 共通パッケージを適用した後、追加パッケージをインストールする。
 
 ```sh
-brew bundle install --file=brew/Brewfile.home
+brew bundle install --file=brew/home/Brewfile
 ```
 
 ## Stow
