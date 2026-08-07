@@ -1,4 +1,7 @@
+# cask_args appdir: "#{Dir.home}/Applications"
+
 tap "controlplaneio-fluxcd/tap"
+tap "flux-iac/tap"
 tap "fluxcd/tap"
 tap "teamookla/speedtest"
 
@@ -22,6 +25,7 @@ brew "zellij"
 
 # Kubernetes and infrastructure
 brew "controlplaneio-fluxcd/tap/flux-operator-mcp"
+brew "flux-iac/tap/tfctl"
 brew "fluxcd/tap/flux"
 brew "helm"
 brew "k9s"
