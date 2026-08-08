@@ -1,4 +1,5 @@
 if status is-interactive
+    alias k="kubectl"
     alias ll="eza -l --icons --git"
 end
 set PATH /opt/homebrew/bin $PATH
