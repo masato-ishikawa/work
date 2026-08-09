@@ -1,5 +1,15 @@
+cask_args appdir: "#{Dir.home}/Applications"
+
 # private tools
+cask "amazon-photos"
+cask "balenaetcher"
+cask "brave-browser"
+cask "chatgpt"
+cask "clipy"
 cask "codex"
+cask "google-chrome"
 brew "mariadb-connector-c"
 cask "multipass"
 brew "podman"
+cask "steam"
+cask "vlc"
