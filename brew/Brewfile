@@ -1,4 +1,4 @@
-# cask_args appdir: "#{Dir.home}/Applications"
+cask_args appdir: "#{Dir.home}/Applications"
 
 tap "controlplaneio-fluxcd/tap"
 tap "flux-iac/tap"
@@ -53,3 +53,5 @@ brew "oci-cli"
 cask "font-hack-nerd-font"
 cask "ghostty"
 cask "rectangle"
+cask "obsidian"
+cask "visual-studio-code"
