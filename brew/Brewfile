@@ -58,4 +58,12 @@ cask "obsidian"
 cask "visual-studio-code"
 
 # Visual Studio Code extensions
+vscode "DavidAnson.vscode-markdownlint"
+vscode "HashiCorp.terraform"
+vscode "hediet.vscode-drawio"
 vscode "jnoortheen.nix-ide"
+vscode "MS-CEINTL.vscode-language-pack-ja"
+vscode "ms-vscode-remote.remote-ssh"
+vscode "oderwat.indent-rainbow"
+vscode "redhat.vscode-yaml"
+vscode "wesbos.theme-cobalt2"
