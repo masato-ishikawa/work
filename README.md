@@ -42,9 +42,9 @@ brew bundle install --file=brew/home/Brewfile
 
 ## nix-darwin
 
-macOSのシステム設定を管理する。現在は、Dockを自動的に隠さない設定を適用する。
+macOSのシステム設定を管理する。
 
-共通設定は`nix/common.nix`、端末固有のユーザー名などは`nix/hosts/`配下で管理する。会社Macへ適用する前に、`nix/hosts/work.nix`のユーザー名を設定する。
+共通設定は`nix/common.nix`、端末固有のユーザー名などは`nix/hosts/`配下で管理する。
 
 ### Nixのインストール
 
@@ -66,6 +66,12 @@ nix --version
 
 ```sh
 sudo nix run nix-darwin/nix-darwin-26.05#darwin-rebuild -- switch --flake ./nix#home
+```
+
+初回適用後、Fishを再起動して`PATH`を反映する。
+
+```sh
+exec fish
 ```
 
 2回目以降

@@ -2,7 +2,7 @@ if status is-interactive
     alias k="kubectl"
     alias ll="eza -l --icons --git"
 end
-set PATH /opt/homebrew/bin $PATH
+set PATH /run/current-system/sw/bin /opt/homebrew/bin $PATH
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
