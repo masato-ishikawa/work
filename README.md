@@ -16,7 +16,7 @@
 .
 ├── brew/
 ├── stow/
-├── nix/ (予定)
+├── nix/
 └── README.md
 ```
 
@@ -38,6 +38,46 @@ brew bundle install --file=brew/Brewfile
 
 ```sh
 brew bundle install --file=brew/home/Brewfile
+```
+
+## nix-darwin
+
+macOSのシステム設定を管理する。現在は、Dockを自動的に隠さない設定を適用する。
+
+共通設定は`nix/common.nix`、端末固有のユーザー名などは`nix/hosts/`配下で管理する。会社Macへ適用する前に、`nix/hosts/work.nix`のユーザー名を設定する。
+
+### Nixのインストール
+
+Nix互換のLixを公式インストーラーでインストールする。
+
+```sh
+curl --proto '=https' --tlsv1.2 -sSf -L https://install.lix.systems/lix | sh -s -- install
+```
+
+インストール後にターミナルを開き直し、動作を確認する。
+
+```sh
+nix --version
+```
+
+### nix-darwinの適用
+
+初回適用
+
+```sh
+sudo nix run nix-darwin/nix-darwin-26.05#darwin-rebuild -- switch --flake ./nix#home
+```
+
+2回目以降
+
+```sh
+sudo darwin-rebuild switch --flake ./nix#home
+```
+
+会社Mac
+
+```sh
+sudo darwin-rebuild switch --flake ./nix#work
 ```
 
 ## Stow

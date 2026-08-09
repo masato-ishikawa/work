@@ -56,3 +56,6 @@ cask "ghostty"
 cask "rectangle"
 cask "obsidian"
 cask "visual-studio-code"
+
+# Visual Studio Code extensions
+vscode "jnoortheen.nix-ide"
