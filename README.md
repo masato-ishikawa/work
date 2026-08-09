@@ -22,7 +22,7 @@
 
 ## Homebrew
 
-Homebrewでインストールするアプリケーションは、ホームディレクトリ配下の`application`（`$HOME/application`）に配置する。
+Homebrewでインストールするアプリケーションは、ホームディレクトリ配下の`Applications`（`$HOME/Applications`）に配置する。
 
 ### 共通パッケージ
 
