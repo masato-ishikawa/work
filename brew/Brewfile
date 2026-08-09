@@ -50,6 +50,7 @@ cask "gcloud-cli"
 brew "oci-cli"
 
 # Desktop applications and fonts
+cask "clipy"
 cask "font-hack-nerd-font"
 cask "ghostty"
 cask "rectangle"

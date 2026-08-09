@@ -22,6 +22,8 @@
 
 ## Homebrew
 
+Homebrewでインストールするアプリケーションは、ホームディレクトリ配下の`application`（`$HOME/application`）に配置する。
+
 ### 共通パッケージ
 
 すべてのMacで共通して使うパッケージをインストールする。
