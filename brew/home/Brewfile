@@ -3,7 +3,6 @@ cask_args appdir: "#{Dir.home}/Applications"
 # private tools
 cask "balenaetcher"
 cask "brave-browser"
-cask "chatgpt"
 cask "codex"
 cask "google-chrome"
 brew "mariadb-connector-c"
